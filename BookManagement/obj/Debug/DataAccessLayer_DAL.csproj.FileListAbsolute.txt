@@ -1,0 +1,6 @@
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\bin\Debug\BookManagement.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\bin\Debug\BookManagement.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\obj\Debug\DataAccessLayer_DAL.csproj.CoreCompileInputs.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\obj\Debug\BookManagement.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\obj\Debug\BookManagement.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BookManagement\obj\Debug\DataAccessLayer_DAL.csproj.AssemblyReference.cache

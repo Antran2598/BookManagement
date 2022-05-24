@@ -1,0 +1,9 @@
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\bin\Debug\BussinessLogicLayer_BLL.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\bin\Debug\BussinessLogicLayer_BLL.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\bin\Debug\BookManagement.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\bin\Debug\BookManagement.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\obj\Debug\BussinessLogicLayer_BLL.csproj.AssemblyReference.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\obj\Debug\BussinessLogicLayer_BLL.csproj.CoreCompileInputs.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\obj\Debug\BussinessLogicLayer_BLL.csproj.CopyComplete
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\obj\Debug\BussinessLogicLayer_BLL.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\BussinessLogicLayer_BLL\obj\Debug\BussinessLogicLayer_BLL.pdb
