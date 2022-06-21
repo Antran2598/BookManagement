@@ -16,5 +16,7 @@ namespace DataAccessLayer_DAL
         public float original_price { get; set; }
         public float sale_price { get; set; }
         public int qty_instock { get; set; }
+
+        public Book() { }
     }
 }

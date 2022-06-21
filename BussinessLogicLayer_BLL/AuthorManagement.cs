@@ -16,5 +16,45 @@ namespace BussinessLogicLayer_BLL
         {
             return authorDao.GetAllAuthor();
         }
+        public void closeConnection()
+        {
+            authorDao.CloseConnection();
+        }
+
+        public SqlDataReader getDetails(string id)
+        {
+            return authorDao.findById(id);
+        }
+
+        public DataSet searchByName(string name)
+        {
+            return authorDao.SearchByName(name);
+        }
+        public int RemoveAuthor(string id)
+        {
+            // check valid
+
+            //call DAO
+            return authorDao.deleteAuthor(id);
+
+        }
+
+        public int AddAuthor(Author author)
+        {
+            // check valid
+
+            //call DAO
+            return authorDao.createAuthor(author);
+
+        }
+
+        public int UpdateAuthor(Author author)
+        {
+            // check valid
+
+            //call DAO
+            return authorDao.updateAuthor(author);
+
+        }
     }
 }

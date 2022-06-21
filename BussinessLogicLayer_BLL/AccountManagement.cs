@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,6 +18,10 @@ namespace BussinessLogicLayer_BLL
         public bool registerUser(Account account)
         {
             return accountDao.register(account);
+        }
+        public DataSet ViewAccounts()
+        {
+            return accountDao.GetAllAccount();
         }
 
     }

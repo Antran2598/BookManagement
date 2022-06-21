@@ -29,6 +29,7 @@ namespace PresentationLayer
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSignIn));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -41,7 +42,9 @@ namespace PresentationLayer
             this.label2 = new System.Windows.Forms.Label();
             this.txt_password = new System.Windows.Forms.TextBox();
             this.btn_register = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -70,6 +73,7 @@ namespace PresentationLayer
             this.txt_username.Name = "txt_username";
             this.txt_username.Size = new System.Drawing.Size(314, 22);
             this.txt_username.TabIndex = 103;
+            this.txt_username.Validating += new System.ComponentModel.CancelEventHandler(this.txt_username_Validating_1);
             // 
             // label5
             // 
@@ -88,6 +92,7 @@ namespace PresentationLayer
             this.txt_confirmPasssword.Name = "txt_confirmPasssword";
             this.txt_confirmPasssword.Size = new System.Drawing.Size(314, 22);
             this.txt_confirmPasssword.TabIndex = 101;
+            this.txt_confirmPasssword.Validating += new System.ComponentModel.CancelEventHandler(this.txt_confirmPasssword_Validating_1);
             // 
             // label4
             // 
@@ -135,6 +140,7 @@ namespace PresentationLayer
             this.txt_password.Name = "txt_password";
             this.txt_password.Size = new System.Drawing.Size(314, 22);
             this.txt_password.TabIndex = 96;
+            this.txt_password.Validating += new System.ComponentModel.CancelEventHandler(this.txt_password_Validating_1);
             // 
             // btn_register
             // 
@@ -145,6 +151,10 @@ namespace PresentationLayer
             this.btn_register.Text = "Register";
             this.btn_register.UseVisualStyleBackColor = true;
             this.btn_register.Click += new System.EventHandler(this.btn_register_Click);
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FormSignIn
             // 
@@ -164,7 +174,9 @@ namespace PresentationLayer
             this.Controls.Add(this.pictureBox1);
             this.Name = "FormSignIn";
             this.Text = "FormSignIn";
+            this.Load += new System.EventHandler(this.FormSignIn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +195,6 @@ namespace PresentationLayer
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txt_password;
         private System.Windows.Forms.Button btn_register;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

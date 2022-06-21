@@ -13,6 +13,6 @@ namespace DataAccessLayer_DAL
         public int book_id { get; set; }
         public int amount { get; set; }
         public float price { get; set; }
-        public int vat { get; set; }
+        public float total_price { get; set; }
     }
 }

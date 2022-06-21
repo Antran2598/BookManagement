@@ -17,10 +17,43 @@ namespace BussinessLogicLayer_BLL
             return bookDao.GetAllBook();
         }
 
-        public SqlDataReader getDatails(string id)
+        public SqlDataReader getDetails(string id)
         {
-            return bookDao.FindById(id);
+            return bookDao.findById(id);
         }
 
+        public DataSet searchByName(string name)
+        {
+            return bookDao.SearchByName(name);
+        }
+        public int RemoveBook(string id)
+        {
+            // check valid
+
+            //call DAO
+            return bookDao.deleteBook(id);
+
+        }
+
+        public int AddBook(Book book)
+        {
+            // check valid
+
+            //call DAO
+            return bookDao.createBook(book);
+
+        }
+
+        public int UpdateBook(Book book)
+        {
+            // check valid
+
+            //call DAO
+            return bookDao.updateBook(book);
+        }
+        public void closeConnection()
+        {
+            bookDao.CloseConnection();
+        }
     }
 }

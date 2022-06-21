@@ -23,5 +23,15 @@ namespace PresentationLayer
             frmAdmin.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Bạn có chắc muốn thoát?", "Xác nhận", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            {
+                this.Hide();
+                FormLogin f = new FormLogin();
+                f.ShowDialog();
+            }
+        }
     }
 }

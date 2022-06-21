@@ -10,7 +10,8 @@ namespace DataAccessLayer_DAL
 {
     public class GeneralDAO
     {
-        public String ConnectionString = "Data Source = AN\\ANTRAN; User ID = sa; Password = 1 ; Initial Catalog = BookStore";
+
+        public string ConnectionString = "Data Source = AN\\ANTRAN; User ID = sa; Password = 1 ; Initial Catalog = BookStore";
         //public String ConnectionString = "Data Source = DESKTOP-PCH6BP9; User ID = sa; Password = 1 ; Initial Catalog = BookStore";
         public string select_from = "select * from ";
 
@@ -62,7 +63,7 @@ namespace DataAccessLayer_DAL
         //SqlDataReader sử dụng khi chỉ trả về một hàng
         public SqlDataReader FindById(string tableName, string where_primarykey_Id)
         {
-            string sql = select_from + tableName + " where " + where_primarykey_Id;
+            string sql = "select * from " + tableName + " where " + where_primarykey_Id;
             SqlCommand cmd = new SqlCommand(sql, connection);
             SqlDataReader dataReader = cmd.ExecuteReader();
             return dataReader;

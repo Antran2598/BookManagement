@@ -51,6 +51,8 @@
     <Compile Include="CategoryDAO.cs" />
     <Compile Include="GeneralDAO.cs" />
     <Compile Include="Invoice.cs" />
+    <Compile Include="InvoiceDAO.cs" />
+    <Compile Include="InvoiceDetailDAO.cs" />
     <Compile Include="Invoice_Detail.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Publisher.cs" />

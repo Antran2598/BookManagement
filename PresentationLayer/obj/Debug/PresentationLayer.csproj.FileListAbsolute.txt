@@ -17,3 +17,106 @@ E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\PresentationLa
 E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.Dashboard.resources
 E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.AdminManagement.resources
 E:\Phát triển phần mềm ứng dụng\Cuoi ky\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.BookManagement.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.exe
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.pdb
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\BookManagement.dll
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\BussinessLogicLayer_BLL.dll
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\BookManagement.pdb
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\bin\Debug\BussinessLogicLayer_BLL.pdb
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.AdminManagement.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.BookManagement.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.Dashboard.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormLogin.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormSignIn.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.exe
+D:\Repos\PTPMUD\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.exe.config
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.exe
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\PresentationLayer.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\BookManagement.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\BussinessLogicLayer_BLL.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\BookManagement.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\BussinessLogicLayer_BLL.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.AssemblyReference.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.AdminManagement.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.BookManagement.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.Dashboard.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormLogin.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormSignIn.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.Properties.Resources.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.GenerateResource.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.CoreCompileInputs.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.csproj.CopyComplete
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.exe
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.pdb
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.AuthorManage.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.CateManage.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.PubManage.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormSale.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\SqlServerTypes\x64\msvcr120.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\SqlServerTypes\x64\SqlServerSpatial140.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\SqlServerTypes\x86\msvcr120.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\SqlServerTypes\x86\SqlServerSpatial140.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.ReportViewer.Common.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.ReportViewer.DataVisualization.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.ReportViewer.Design.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.ReportViewer.ProcessingObjectModel.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.SqlServer.Types.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\EnvDTE.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\stdole.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.VisualStudio.OLE.Interop.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\Microsoft.MSXML.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\de\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\es\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\fr\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\it\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ja\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ko\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\pt\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ru\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHS\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHT\Microsoft.ReportViewer.Common.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\de\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\es\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\fr\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\it\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ja\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ko\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\pt\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ru\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHS\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHT\Microsoft.ReportViewer.DataVisualization.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\de\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\es\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\fr\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\it\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ja\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ko\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\pt\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ru\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHS\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHT\Microsoft.ReportViewer.Design.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\de\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\es\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\fr\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\it\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ja\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ko\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\pt\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\ru\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\PresentationLayer.FormPrint.resources
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\RdlCompile.cache
+E:\Phát triển phần mềm ứng dụng\Cuoi ky\validate ver\BookManagement\PresentationLayer\obj\Debug\RdlCompile.compiled

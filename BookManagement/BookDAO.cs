@@ -12,17 +12,69 @@ namespace DataAccessLayer_DAL
     {
         public DataSet GetAllBook()
         {
+            //return GetAll("vw_View1");
             return GetAll("vw_book");
         }
         public DataSet SearchByName(string name)
         {
             return Search("book", "book_name like '%" + name + "%'");
         }
-        public SqlDataReader FindById(string id)
+        public SqlDataReader findById(string id)
         {
             OpenConnection();
-            SqlDataReader dataReader = FindById("book" + "ID='" + id + "'");
-            return dataReader;
+            SqlDataReader dr = FindById("vw_book", " ID='" + id + "' ");
+            return dr;
+        }
+        public int deleteBook(string id)
+        {
+            try
+            {
+                string sql = "delete [book] where ID ='" + id + "' ";
+                return Insert_Update_Delete(sql); // -1 if error
+
+            }
+            catch (Exception ex)
+            {
+                // log
+                return -1;
+            }
+
+        }
+
+        public int createBook(Book book)
+        {
+            try
+            {
+                string sql = string.Format("insert [book] " +
+                    "                      values('{0}', '{1}', '{2}','{3}','{4}','{5}','{6}')",
+                                           book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock);
+
+                return Insert_Update_Delete(sql); // -1 if error
+
+            }
+            catch (Exception ex)
+            {
+                // log
+                return -1;
+            }
+        }
+
+        public int updateBook(Book book)
+        {
+            try
+            {
+                //Dname, Dnumber, Mgr_ssn, Mgr_start_date
+                string sql = string.Format("update book " +
+                                                "set book_name='{0}', author='{1}', publisher='{2}', category='{3}', original_price='{4}', sale_price='{5}', qty_instock='{6}'" +
+                                                 " where ID ='{7}'",
+                                              book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock, book.ID);
+                return Insert_Update_Delete(sql);
+            }
+            catch (Exception ex)
+            {
+                //log
+                return -1;
+            }
         }
     }
 }
