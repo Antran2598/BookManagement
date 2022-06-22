@@ -33,5 +33,12 @@ namespace PresentationLayer
                 f.ShowDialog();
             }
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormSale frmSale = new FormSale();
+            frmSale.Show();
+            this.Hide();
+        }
     }
 }

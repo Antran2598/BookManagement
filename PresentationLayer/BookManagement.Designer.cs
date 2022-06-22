@@ -56,8 +56,14 @@ namespace PresentationLayer
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.comboBox3 = new System.Windows.Forms.ComboBox();
             this.btn_search = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btn_upload = new System.Windows.Forms.Button();
+            this.txt_img = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gv_books)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -154,7 +160,7 @@ namespace PresentationLayer
             this.panel1.Controls.Add(this.btn_delete);
             this.panel1.Controls.Add(this.btn_update);
             this.panel1.Controls.Add(this.btn_save);
-            this.panel1.Location = new System.Drawing.Point(387, 514);
+            this.panel1.Location = new System.Drawing.Point(386, 550);
             this.panel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(911, 79);
@@ -225,7 +231,7 @@ namespace PresentationLayer
             this.gv_books.RowHeadersWidth = 62;
             this.gv_books.RowTemplate.Height = 28;
             this.gv_books.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gv_books.Size = new System.Drawing.Size(913, 361);
+            this.gv_books.Size = new System.Drawing.Size(481, 395);
             this.gv_books.TabIndex = 51;
             this.gv_books.SelectionChanged += new System.EventHandler(this.gv_books_SelectionChanged);
             this.gv_books.Click += new System.EventHandler(this.gv_books_Click);
@@ -312,7 +318,7 @@ namespace PresentationLayer
             // btn_search
             // 
             this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
-            this.btn_search.Location = new System.Drawing.Point(1173, 79);
+            this.btn_search.Location = new System.Drawing.Point(1173, 70);
             this.btn_search.Margin = new System.Windows.Forms.Padding(4);
             this.btn_search.Name = "btn_search";
             this.btn_search.Size = new System.Drawing.Size(124, 38);
@@ -322,11 +328,56 @@ namespace PresentationLayer
             this.btn_search.UseVisualStyleBackColor = true;
             this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(895, 192);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(403, 338);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 75;
+            this.pictureBox1.TabStop = false;
+            // 
+            // btn_upload
+            // 
+            this.btn_upload.Location = new System.Drawing.Point(1173, 141);
+            this.btn_upload.Name = "btn_upload";
+            this.btn_upload.Size = new System.Drawing.Size(125, 36);
+            this.btn_upload.TabIndex = 76;
+            this.btn_upload.Text = "Upload";
+            this.btn_upload.UseVisualStyleBackColor = true;
+            this.btn_upload.Click += new System.EventHandler(this.btn_upload_Click);
+            // 
+            // txt_img
+            // 
+            this.txt_img.Location = new System.Drawing.Point(23, 607);
+            this.txt_img.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.txt_img.Name = "txt_img";
+            this.txt_img.Size = new System.Drawing.Size(325, 22);
+            this.txt_img.TabIndex = 78;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(23, 580);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(30, 17);
+            this.label10.TabIndex = 77;
+            this.label10.Text = "Img";
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
             // BookManagement
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1332, 628);
+            this.ClientSize = new System.Drawing.Size(1318, 669);
+            this.Controls.Add(this.txt_img);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.btn_upload);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btn_search);
             this.Controls.Add(this.comboBox3);
             this.Controls.Add(this.comboBox2);
@@ -355,6 +406,7 @@ namespace PresentationLayer
             this.Load += new System.EventHandler(this.BookManagement_Load);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.gv_books)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -388,5 +440,10 @@ namespace PresentationLayer
         private System.Windows.Forms.ComboBox comboBox2;
         private System.Windows.Forms.ComboBox comboBox3;
         private System.Windows.Forms.Button btn_search;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btn_upload;
+        private System.Windows.Forms.TextBox txt_img;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
     }
 }

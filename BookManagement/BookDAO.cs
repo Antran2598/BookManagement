@@ -46,8 +46,8 @@ namespace DataAccessLayer_DAL
             try
             {
                 string sql = string.Format("insert [book] " +
-                    "                      values('{0}', '{1}', '{2}','{3}','{4}','{5}','{6}')",
-                                           book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock);
+                    "                      values('{0}', '{1}', '{2}','{3}','{4}','{5}','{6}','{7}')",
+                                           book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock, book.img);
 
                 return Insert_Update_Delete(sql); // -1 if error
 
@@ -65,9 +65,9 @@ namespace DataAccessLayer_DAL
             {
                 //Dname, Dnumber, Mgr_ssn, Mgr_start_date
                 string sql = string.Format("update book " +
-                                                "set book_name='{0}', author='{1}', publisher='{2}', category='{3}', original_price='{4}', sale_price='{5}', qty_instock='{6}'" +
-                                                 " where ID ='{7}'",
-                                              book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock, book.ID);
+                                                "set book_name='{0}', author='{1}', publisher='{2}', category='{3}', original_price='{4}', sale_price='{5}', qty_instock='{6}', img='{7}'" +
+                                                 " where ID ='{8}'",
+                                              book.book_name, book.author, book.publisher, book.category, book.original_price, book.sale_price, book.qty_instock, book.img, book.ID);
                 return Insert_Update_Delete(sql);
             }
             catch (Exception ex)

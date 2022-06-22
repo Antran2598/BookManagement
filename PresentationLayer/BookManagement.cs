@@ -11,6 +11,7 @@ using System.Data;
 using System.Data.SqlClient;
 using BussinessLogicLayer_BLL;
 using DataAccessLayer_DAL;
+using System.IO;
 
 namespace PresentationLayer
 {
@@ -100,12 +101,14 @@ namespace PresentationLayer
             {
                 txt_id.Text = dr.GetInt32(0).ToString();
                 txt_bookName.Text = dr.GetString(1);
-                comboBox1.Text = dr.GetString(8);
-                comboBox2.Text = dr.GetString(9);
-                comboBox3.Text = dr.GetString(10);
+                comboBox1.Text = dr.GetString(9);
+                comboBox2.Text = dr.GetString(10);
+                comboBox3.Text = dr.GetString(11);
                 txt_originalPrice.Text = dr.GetValue(5).ToString();
                 txt_salePrice.Text = dr.GetValue(6).ToString();
                 txt_instock.Text = dr.GetInt32(7).ToString();
+                pictureBox1.ImageLocation = @"../../upload/" + dr.GetString(8);
+                txt_img.Text = dr.GetString(8);
             }
             mngBook.closeConnection();
         }
@@ -139,7 +142,8 @@ namespace PresentationLayer
                 category = int.Parse(comboBox2.SelectedValue.ToString()),
                 original_price = float.Parse(txt_originalPrice.Text.ToString()),
                 sale_price = float.Parse(txt_salePrice.Text.ToString()),
-                qty_instock = int.Parse(txt_instock.Text.ToString())
+                qty_instock = int.Parse(txt_instock.Text.ToString()),
+                img = txt_img.Text
             };
             // 
             int result = mngBook.AddBook(book);
@@ -170,7 +174,8 @@ namespace PresentationLayer
                 category = int.Parse(comboBox2.SelectedValue.ToString()),
                 original_price = float.Parse(txt_originalPrice.Text.ToString()),
                 sale_price = float.Parse(txt_salePrice.Text.ToString()),
-                qty_instock = int.Parse(txt_instock.Text.ToString())
+                qty_instock = int.Parse(txt_instock.Text.ToString()),
+                img = txt_img.Text
             };
             // 
             int result = mngBook.UpdateBook(book);
@@ -187,6 +192,26 @@ namespace PresentationLayer
             bs = new BindingSource();
             bs.DataSource = ds.Tables[0];
             gv_books.DataSource = bs;
+        }
+
+        private void btn_upload_Click(object sender, EventArgs e)
+        {
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                pictureBox1.Image = new Bitmap(openFileDialog1.OpenFile());
+                txt_img.Text = openFileDialog1.SafeFileName;
+            }
+            try
+            {
+                string fileName = openFileDialog1.SafeFileName;
+                string rootPath = @"../../upload";
+                File.Copy(openFileDialog1.FileName, rootPath + "/" + fileName, true);
+                MessageBox.Show("You uploaded your picture");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Your didn't change your picture");
+            }
         }
     }
 }

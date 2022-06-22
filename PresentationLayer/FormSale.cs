@@ -142,8 +142,8 @@ namespace PresentationLayer
 
         private void btn_close_Click(object sender, EventArgs e)
         {
-            AdminManagement frmAdmin = new AdminManagement();
-            frmAdmin.Show();
+            Dashboard ds = new Dashboard();
+            ds.Show();
             this.Hide();
         }
 

@@ -209,6 +209,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Img\" />
+    <Folder Include="upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="SqlServerTypes\readme.htm" />
